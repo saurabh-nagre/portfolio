@@ -1,0 +1,14 @@
+.links{
+    width: 2vw;
+    min-width: 40px;
+    height: 6vh;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.profiles{
+    position: fixed;
+    right: 0px;
+    bottom:0px;
+    background-color: rgb(150, 184, 214);
+}

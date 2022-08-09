@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from './components/navbar.js';
+import {useState} from 'react';
+import "./App.css";
+import Introduction from './components/Indroduction.js';
+import Profiles from './components/profiles.js';
+import Mywork from './components/mywork.js';
+import Resume from './components/resume.js';
+import Footer from './components/footer.js';
 function App() {
+  
+  const [mode,setMode] = useState('dark');
+
+  function modeToggle(){
+    if(mode==='dark'){
+      setMode('light');
+    }
+    else setMode('dark');
+  }  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Navbar toggle={modeToggle} mode={mode}></Navbar>
+        <div id='main'>
+          <Introduction mode={mode}></Introduction>
+        </div>
+        <Profiles></Profiles>
+        <div id="mywork">
+          <Mywork mode={mode}></Mywork>
+        </div>
+        <div id='resume'>
+          <Resume mode={mode}></Resume>
+        </div>
+        <div>
+          <Footer mode={mode}></Footer>
+        </div>
     </div>
   );
 }

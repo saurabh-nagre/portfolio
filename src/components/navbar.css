@@ -1,0 +1,28 @@
+.main{
+  display: block;
+  width: auto;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+  .nav-link{
+    display: inline-block;
+  }
+  .logo{
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    margin: 2px;
+  }
+  .nav-link:hover,.logo:hover{
+      background-color: rgb(249, 136, 118);
+      transform: rotate(-5deg);
+      transition-delay: 50ms;
+  }
+  .switch{
+    height: 32px;
+    border-radius: 20px;
+    margin:10px;
+    margin-inline: 50px;
+    align-self: center;
+  }

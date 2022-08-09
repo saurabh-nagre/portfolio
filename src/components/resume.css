@@ -1,0 +1,54 @@
+.resume{
+    padding: 20px;
+    padding-inline: 15%;
+    margin-inline: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.dash,.mybtn{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+h6{
+    text-align:end ;
+    margin-top: 10px;
+}
+.txt{
+    text-align: center;
+    margin: 10px;
+    margin-inline: 0px;
+    
+}
+.mail{
+    width: 50%;
+}
+.insta{
+    width: 50%;
+}
+.center{
+    margin-inline: 30%;
+}
+.l1,.l2,.l3,.l4{
+    width: 20%;
+    height:10px;
+    display: inline-block;
+}
+.l1{
+    background-color:coral;
+}
+.l2{
+    background-color:darkslateblue;
+}
+.l3{
+    background-color: darkseagreen;
+}
+.l4{
+    background-color:darkorange;
+}
+.footer{
+    margin-inline: 10px;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+.flt{
+    float: right;
+}

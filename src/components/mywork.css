@@ -1,0 +1,24 @@
+.mywork{
+    margin-inline: 10px;
+    padding: 40px;
+}
+.hr{
+    height: 6px;
+    border-radius: 10px ;
+    background-color: coral;
+    width: 50%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:800px){
+    h4{
+        text-align: center;
+    }
+    .para {
+        font-size: small;
+        min-width: 300px;
+        text-align: center;
+    }
+    iframe {
+        min-width: 300px;
+    }
+}
